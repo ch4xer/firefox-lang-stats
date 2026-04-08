@@ -9,6 +9,9 @@ on:
     # run every Sunday at 22:12 UTC
     - cron: '12 22 * * 0'
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
